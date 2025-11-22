@@ -4,6 +4,26 @@
     src: url('/public/font/helvetica.ttf') format('truetype');
 }
 
+.text-shadow-3d {
+    text-shadow:
+        1px 1px 0 #db2777,
+        2px 2px 0 #be185d,
+        3px 3px 0 #9f1239,
+        4px 4px 0 #881337,
+        5px 5px 0 #701a3f,
+        4px 4px 3px rgba(0,0,0,0.5);
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
 * {
     font-family: 'HelveticaCustom', sans-serif;
 }

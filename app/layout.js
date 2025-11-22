@@ -2,40 +2,40 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 export const metadata = {
-    title: "Carinime",
+    title: "Lumineer Gallery",
     description:
         "Explore the latest and most popular anime shows and movies. Watch your favorite anime series online in HD, stay updated with new releases, and join a passionate community of anime fans.",
     keywords: [
-        "anime", "watch anime", "best anime", "new anime", "popular anime", "anime shows", "anime movies", "Carinime", "Fransisco", "anim", "ani", "nime", "anilist", "anime list", "anim list carinime", "Cari nime", "carinim", "cari anime", "list anime", "lihat anime"
+        "anime", "watch anime", "best anime", "new anime", "popular anime", "anime shows", "anime movies", "Lumineer Gallery", "Fransisco", "anim", "ani", "nime", "anilist", "anime list", "anim list Lumineer Gallery", "Cari nime", "carinim", "cari anime", "list anime", "lihat anime"
     ],
     authors: [{ name: "Fransisco Reyhan Fifaldi" }],
-    canonical: "https://carinime.vercel.app",
+    canonical: "https://Lumineer Gallery.vercel.app",
     robots: {
         index: true,
         follow: true,
     },
     openGraph: {
-        title: "Carinime",
+        title: "Lumineer Gallery",
         description:
             "Explore the latest and most popular anime shows and movies. Join a passionate community of anime fans.",
-        url: "https://carinime.vercel.app",
+        url: "https://Lumineer Gallery.vercel.app",
         type: "website",
         images: [
             {
-                url: "https://carinime.vercel.app/icon.png",
+                url: "https://Lumineer Gallery.vercel.app/icon.png",
                 width: 1200,
                 height: 630,
-                alt: "Carinime",
+                alt: "Lumineer Gallery",
             },
         ],
     },
     twitter: {
         card: "summary_large_image",
-        site: "@carinime",
-        title: "Carinime",
+        site: "@Lumineer Gallery",
+        title: "Lumineer Gallery",
         description:
             "Explore the latest and most popular anime shows and movies. Join a passionate community of anime fans.",
-        images: ["https://carinime.vercel.app/icon.png"],
+        images: ["https://Lumineer Gallery.vercel.app/icon.png"],
     },
     revisitAfter: 1,
 };
