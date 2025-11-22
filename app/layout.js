@@ -4,12 +4,12 @@ import "./globals.css";
 export const metadata = {
     title: "Lumineer Gallery",
     description:
-        "Explore the latest and most popular anime shows and movies. Watch your favorite anime series online in HD, stay updated with new releases, and join a passionate community of anime fans.",
+        "COMING SOON Lumineer Gallery.",
     keywords: [
-        "anime", "watch anime", "best anime", "new anime", "popular anime", "anime shows", "anime movies", "Lumineer Gallery", "Fransisco", "anim", "ani", "nime", "anilist", "anime list", "anim list Lumineer Gallery", "Cari nime", "carinim", "cari anime", "list anime", "lihat anime"
+        ""
     ],
     authors: [{ name: "Fransisco Reyhan Fifaldi" }],
-    canonical: "https://Lumineer Gallery.vercel.app",
+    canonical: "https://lumineer-gallery.vercel.app/febriel.png",
     robots: {
         index: true,
         follow: true,
@@ -18,11 +18,11 @@ export const metadata = {
         title: "Lumineer Gallery",
         description:
             "Explore the latest and most popular anime shows and movies. Join a passionate community of anime fans.",
-        url: "https://Lumineer Gallery.vercel.app",
+        url: "https://lumineer-gallery.vercel.app/febriel.png",
         type: "website",
         images: [
             {
-                url: "https://Lumineer Gallery.vercel.app/icon.png",
+                url: "https://lumineer-gallery.vercel.app/febriel.png",
                 width: 1200,
                 height: 630,
                 alt: "Lumineer Gallery",
@@ -35,7 +35,7 @@ export const metadata = {
         title: "Lumineer Gallery",
         description:
             "Explore the latest and most popular anime shows and movies. Join a passionate community of anime fans.",
-        images: ["https://Lumineer Gallery.vercel.app/icon.png"],
+        images: ["https://lumineer-gallery.vercel.app/febriel.png"],
     },
     revisitAfter: 1,
 };
