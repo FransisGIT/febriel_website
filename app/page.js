@@ -3,7 +3,7 @@ import InteractiveCard from "./components/InteractiveCard";
 
 export default function Home() {
     return (
-        <div className="min-h-screen w-full flex items-center justify-center p-6 relative overflow-hidden">
+        <div className="min-h-screen w-full flex items-center justify-center p-6 relative overflow-y-auto overflow-x-hidden">
             {/* Floating particles */}
             <div className="fixed top-10 left-5 sm:top-20 sm:left-20 w-2 sm:w-3 h-2 sm:h-3 bg-white/20 rounded-full animate-fadeInOut" style={{ animationDelay: "0s" }}></div>
             <div className="fixed top-20 right-10 sm:top-40 sm:right-32 w-2 h-2 bg-white/30 rounded-full animate-fadeInOut" style={{ animationDelay: "1s" }}></div>
