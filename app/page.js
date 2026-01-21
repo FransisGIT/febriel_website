@@ -5,55 +5,27 @@ export default function Home() {
     return (
         <div className="min-h-screen w-full flex items-center justify-center p-6 relative overflow-hidden">
             {/* Floating particles */}
-            <div className="absolute top-10 left-5 sm:top-20 sm:left-20 w-2 sm:w-3 h-2 sm:h-3 bg-white/20 rounded-full animate-fadeInOut" style={{ animationDelay: "0s" }}></div>
-            <div className="absolute top-20 right-10 sm:top-40 sm:right-32 w-2 h-2 bg-white/30 rounded-full animate-fadeInOut" style={{ animationDelay: "1s" }}></div>
-            <div className="absolute bottom-40 left-10 sm:bottom-32 sm:left-40 w-3 sm:w-4 h-3 sm:h-4 bg-white/15 rounded-full animate-fadeInOut" style={{ animationDelay: "0.5s" }}></div>
-            <div className="absolute top-32 right-5 sm:top-60 sm:right-20 w-2 h-2 bg-white/25 rounded-full animate-fadeInOut" style={{ animationDelay: "1.5s" }}></div>
-            <div className="absolute bottom-10 right-20 sm:bottom-20 sm:right-60 w-2 sm:w-3 h-2 sm:h-3 bg-white/20 rounded-full animate-fadeInOut" style={{ animationDelay: "0.8s" }}></div>
-            <div className="absolute top-1/4 left-10 sm:top-1/3 sm:left-1/4 w-2 h-2 bg-white/25 rounded-full animate-fadeInOut" style={{ animationDelay: "0.3s" }}></div>
-            <div className="absolute bottom-1/4 right-10 sm:bottom-1/3 sm:right-1/4 w-2 sm:w-3 h-2 sm:h-3 bg-white/15 rounded-full animate-fadeInOut" style={{ animationDelay: "1.2s" }}></div>
-            <div className="absolute top-1/2 left-5 w-2 h-2 bg-white/20 rounded-full animate-fadeInOut" style={{ animationDelay: "0.6s" }}></div>
-            <div className="absolute top-3/4 right-5 w-2 h-2 bg-white/25 rounded-full animate-fadeInOut" style={{ animationDelay: "1.8s" }}></div>
-            <div className="absolute top-16 left-1/3 w-2 h-2 bg-white/20 rounded-full animate-fadeInOut" style={{ animationDelay: "0.4s" }}></div>
-            <div className="absolute bottom-16 right-1/3 w-3 h-3 bg-white/15 rounded-full animate-fadeInOut" style={{ animationDelay: "1.4s" }}></div>
-            <div className="absolute top-2/3 left-8 sm:left-16 w-2 h-2 bg-white/30 rounded-full animate-fadeInOut" style={{ animationDelay: "0.9s" }}></div>
-            <div className="absolute bottom-1/2 right-8 sm:right-16 w-2 h-2 bg-white/20 rounded-full animate-fadeInOut" style={{ animationDelay: "1.6s" }}></div>
-            <div className="absolute top-40 left-1/2 w-2 h-2 bg-white/25 rounded-full animate-fadeInOut" style={{ animationDelay: "0.7s" }}></div>
-            <div className="absolute bottom-24 left-20 sm:left-32 w-2 sm:w-3 h-2 sm:h-3 bg-white/20 rounded-full animate-fadeInOut" style={{ animationDelay: "1.1s" }}></div>
-            <div className="absolute top-1/3 right-12 sm:right-24 w-2 h-2 bg-white/30 rounded-full animate-fadeInOut" style={{ animationDelay: "0.2s" }}></div>
-            <div className="absolute bottom-1/3 left-1/2 w-2 h-2 bg-white/15 rounded-full animate-fadeInOut" style={{ animationDelay: "1.7s" }}></div>
-            <div className="absolute top-24 right-1/4 w-2 h-2 bg-white/25 rounded-full animate-fadeInOut" style={{ animationDelay: "1.3s" }}></div>
-            <div className="absolute top-12 left-1/4 w-2 h-2 bg-white/20 rounded-full animate-fadeInOut" style={{ animationDelay: "0.9s" }}></div>
-            <div className="absolute bottom-12 right-1/3 w-3 h-3 bg-white/15 rounded-full animate-fadeInOut" style={{ animationDelay: "1.9s" }}></div>
-            <div className="absolute top-1/4 left-12 sm:left-24 w-2 h-2 bg-white/25 rounded-full animate-fadeInOut" style={{ animationDelay: "0.4s" }}></div>
-            <div className="absolute bottom-1/4 right-8 sm:right-20 w-2 h-2 bg-white/30 rounded-full animate-fadeInOut" style={{ animationDelay: "1.4s" }}></div>
-            <div className="absolute top-1/2 left-1/4 w-2 h-2 bg-white/20 rounded-full animate-fadeInOut" style={{ animationDelay: "0.6s" }}></div>
-            <div className="absolute bottom-1/2 right-1/4 w-2 h-2 bg-white/25 rounded-full animate-fadeInOut" style={{ animationDelay: "1.2s" }}></div>
-            <div className="absolute top-3/4 left-1/3 w-3 h-3 bg-white/15 rounded-full animate-fadeInOut" style={{ animationDelay: "0.8s" }}></div>
-            <div className="absolute bottom-3/4 right-1/3 w-2 h-2 bg-white/20 rounded-full animate-fadeInOut" style={{ animationDelay: "1.6s" }}></div>
+            <div className="fixed top-10 left-5 sm:top-20 sm:left-20 w-2 sm:w-3 h-2 sm:h-3 bg-white/20 rounded-full animate-fadeInOut" style={{ animationDelay: "0s" }}></div>
+            <div className="fixed top-20 right-10 sm:top-40 sm:right-32 w-2 h-2 bg-white/30 rounded-full animate-fadeInOut" style={{ animationDelay: "1s" }}></div>
+            <div className="fixed bottom-40 left-10 sm:bottom-32 sm:left-40 w-3 sm:w-4 h-3 sm:h-4 bg-white/15 rounded-full animate-fadeInOut" style={{ animationDelay: "0.5s" }}></div>
+            <div className="fixed top-1/2 left-5 w-2 h-2 bg-white/20 rounded-full animate-fadeInOut" style={{ animationDelay: "0.6s" }}></div>
+            <div className="fixed top-3/4 right-5 w-2 h-2 bg-white/25 rounded-full animate-fadeInOut" style={{ animationDelay: "1.8s" }}></div>
+            <div className="fixed bottom-1/2 right-8 sm:right-16 w-2 h-2 bg-white/20 rounded-full animate-fadeInOut" style={{ animationDelay: "1.6s" }}></div>
+            <div className="fixed top-1/3 right-12 sm:right-24 w-2 h-2 bg-white/30 rounded-full animate-fadeInOut" style={{ animationDelay: "0.2s" }}></div>
+            <div className="fixed bottom-1/3 left-1/2 w-2 h-2 bg-white/15 rounded-full animate-fadeInOut" style={{ animationDelay: "1.7s" }}></div>
 
             {/* Particles above card */}
-            <div className="absolute top-1/4 left-1/3 w-2 h-2 bg-white/20 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "0.5s" }}></div>
-            <div className="absolute top-1/2 right-1/3 w-3 h-3 bg-white/15 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "1.1s" }}></div>
-            <div className="absolute bottom-1/3 left-1/4 w-2 h-2 bg-white/25 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "0.8s" }}></div>
-            <div className="absolute top-2/3 right-1/4 w-2 h-2 bg-white/30 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "1.5s" }}></div>
-            <div className="absolute top-1/3 left-1/2 w-2 h-2 bg-white/20 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "0.3s" }}></div>
-            <div className="absolute bottom-1/2 left-2/3 w-2 h-2 bg-white/25 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "0.7s" }}></div>
-            <div className="absolute top-1/2 left-1/3 w-2 h-2 bg-white/30 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "1.8s" }}></div>
-            <div className="absolute bottom-2/3 right-1/3 w-2 h-2 bg-white/20 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "0.2s" }}></div>
-            <div className="absolute top-20 left-1/2 w-2 h-2 bg-white/25 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "0.6s" }}></div>
-            <div className="absolute bottom-20 right-1/2 w-2 h-2 bg-white/20 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "1.3s" }}></div>
-            <div className="absolute top-1/3 right-1/3 w-2 h-2 bg-white/30 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "0.9s" }}></div>
-            <div className="absolute bottom-1/4 left-1/3 w-2 h-2 bg-white/15 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "1.7s" }}></div>
-            <div className="absolute top-1/4 right-2/5 w-2 h-2 bg-white/25 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "0.4s" }}></div>
-            <div className="absolute bottom-1/3 left-2/5 w-2 h-2 bg-white/20 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "1.9s" }}></div>
-            <div className="absolute top-2/5 left-1/5 w-2 h-2 bg-white/30 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "1.0s" }}></div>
-            <div className="absolute bottom-2/5 right-1/5 w-2 h-2 bg-white/25 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "0.5s" }}></div>
+            <div className="fixed top-1/4 left-1/3 w-2 h-2 bg-white/20 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "0.5s" }}></div>
+            <div className="fixed top-1/2 right-1/3 w-3 h-3 bg-white/15 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "1.1s" }}></div>
+            <div className="fixed bottom-1/3 left-1/4 w-2 h-2 bg-white/25 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "0.8s" }}></div>
+            <div className="fixed top-2/3 right-1/4 w-2 h-2 bg-white/30 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "1.5s" }}></div>
+            <div className="fixed top-1/3 left-1/2 w-2 h-2 bg-white/20 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "0.3s" }}></div>
+            <div className="fixed bottom-1/2 left-2/3 w-2 h-2 bg-white/25 rounded-full animate-fadeInOut z-20" style={{ animationDelay: "0.7s" }}></div>
 
             <div className="w-full max-w-3xl bg-slate-800/40 backdrop-blur-xl rounded-2xl p-5 shadow-xl text-white relative z-10">
                 <div className="flex items-center lg:flex-row md:flex-row sm:flex-col flex-col gap-6">
                     <div className="relative">
-                        <div className="w-36 h-3w-36 rounded-full border-4 border-dotted border-pink-300 p-1">
+                        <div className="w-36 h-3w-36 rounded-full border-4 border-dotted border-primary-1 p-1">
                             <Image src="/lumineer-gallery.jpg" width={128} height={128} alt="Avatar"
                                 className="rounded-full object-cover" priority loading="eager" />
                         </div>

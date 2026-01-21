@@ -5,7 +5,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 export const metadata = {
     title: "Lumineer Gallery",
     description:
-        "COMING SOON Lumineer Gallery.",
+        "Lumineer Gallery",
     keywords: [
         ""
     ],
@@ -19,7 +19,7 @@ export const metadata = {
         title: "Lumineer Gallery",
         siteName: "Lumineer Gallery",
         description:
-            "Explore the latest and most popular anime shows and movies. Join a passionate community of anime fans.",
+            "Lumineer Gallery",
         url: "https://lumineer-gallery.vercel.app/lumineer-gallery.jpg",
         type: "website",
         images: [
@@ -40,6 +40,8 @@ export const metadata = {
         images: ["https://lumineer-gallery.vercel.app/lumineer-gallery.jpg"],
     },
     revisitAfter: 1,
+    locale: "id_ID",
+    type: "website",
 };
 
 export default function RootLayout({ children }) {
