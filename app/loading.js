@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Loading() {
     return (
-        <div className="min-h-screen w-full flex items-center justify-center relative overflow-hidden" style={{ background: "linear-gradient(135deg, #f388ae 0%, #a78295 100%)" }}>
+        <div className="min-h-svh w-full flex items-center justify-center relative overflow-hidden" style={{ background: "linear-gradient(135deg, #f388ae 0%, #a78295 100%)" }}>
             {/* Floating particles */}
             <div className="absolute top-20 left-20 w-3 h-3 bg-white/30 rounded-full animate-fadeInOut" style={{ animationDelay: "0s" }}></div>
             <div className="absolute top-40 right-32 w-2 h-2 bg-white/40 rounded-full animate-fadeInOut" style={{ animationDelay: "1s" }}></div>
