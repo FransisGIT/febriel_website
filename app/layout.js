@@ -54,6 +54,7 @@ export default function RootLayout({ children }) {
             <body suppressHydrationWarning>
                 {children}
                 <Analytics />
+                <SpeedInsights />
             </body>
         </html>
     );
