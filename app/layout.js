@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
     title: "Lumineer Gallery",
@@ -16,6 +17,7 @@ export const metadata = {
     },
     openGraph: {
         title: "Lumineer Gallery",
+        siteName: "Lumineer Gallery",
         description:
             "Explore the latest and most popular anime shows and movies. Join a passionate community of anime fans.",
         url: "https://lumineer-gallery.vercel.app/lumineer-gallery.jpg",
