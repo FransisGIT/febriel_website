@@ -33,7 +33,7 @@ export default function Home() {
 
                     <div className="flex flex-col flex-1">
                         <h2 className="text-3xl font-bold text-center">
-                            Lumineer Gallery
+                            i did all you WANT, you just DUMPED ME
                         </h2>
 
                         {/* <p className="text-slate-300 text-center md:text-left mt-2">
@@ -49,42 +49,42 @@ export default function Home() {
                     </div>
 
                     {/* SOCIAL MEDIA */}
-                    <div className="flex justify-center lg:flex-col md:flex-col sm:flex-row flex-row gap-6 mt-2 text-xl">
-                        <a href="https://www.instagram.com/lumineer_gallery/"
-                            className="hover:text-pink-400 transition hover:transform-3d hover:scale-125 ease-in-out duration-500" target={"_blank"} rel={"noreferrer"}>
-                            <Image src="/instagram.svg" width={40} height={40} alt="instagram"
-                                className="w-10 h-10 rounded-lg" />
-                        </a>
-                        <a href="#"
-                            className="hover:text-blue-300 transition hover:transform-3d hover:scale-125 ease-in-out duration-500" target={"_blank"} rel={"noreferrer"}>
-                            <Image src="/facebook.svg" width={40} height={40} alt="facebook" className="w-10 h-10 rounded-lg" />
-                        </a>
-                        <a href="#"
-                            className="hover:text-pink-400 transition hover:transform-3d hover:scale-125 ease-in-out duration-500" target={"_blank"} rel={"noreferrer"}>
-                            <Image src="/mail.svg" width={40} height={40} alt="mail" className="w-10 h-10 rounded-lg" />
-                        </a>
-                        <a href="#"
-                            className="hover:text-blue-300 transition hover:transform-3d hover:scale-125 ease-in-out duration-500" target={"_blank"} rel={"noreferrer"}>
-                            <Image src="/pinterest.svg" width={40} height={40} alt="pinterest"
-                                className="w-10 h-10 rounded-lg" />
-                        </a>
-                    </div>
+                    // <div className="flex justify-center lg:flex-col md:flex-col sm:flex-row flex-row gap-6 mt-2 text-xl">
+                    //     <a href="https://www.instagram.com/lumineer_gallery/"
+                    //         className="hover:text-pink-400 transition hover:transform-3d hover:scale-125 ease-in-out duration-500" target={"_blank"} rel={"noreferrer"}>
+                    //         <Image src="/instagram.svg" width={40} height={40} alt="instagram"
+                    //             className="w-10 h-10 rounded-lg" />
+                    //     </a>
+                    //     <a href="#"
+                    //         className="hover:text-blue-300 transition hover:transform-3d hover:scale-125 ease-in-out duration-500" target={"_blank"} rel={"noreferrer"}>
+                    //         <Image src="/facebook.svg" width={40} height={40} alt="facebook" className="w-10 h-10 rounded-lg" />
+                    //     </a>
+                    //     <a href="#"
+                    //         className="hover:text-pink-400 transition hover:transform-3d hover:scale-125 ease-in-out duration-500" target={"_blank"} rel={"noreferrer"}>
+                    //         <Image src="/mail.svg" width={40} height={40} alt="mail" className="w-10 h-10 rounded-lg" />
+                    //     </a>
+                    //     <a href="#"
+                    //         className="hover:text-blue-300 transition hover:transform-3d hover:scale-125 ease-in-out duration-500" target={"_blank"} rel={"noreferrer"}>
+                    //         <Image src="/pinterest.svg" width={40} height={40} alt="pinterest"
+                    //             className="w-10 h-10 rounded-lg" />
+                    //     </a>
+                    // </div>
                 </div>
 
-                <InteractiveCard />
+                // <InteractiveCard />
 
                 {/* BUTTON LINK */}
-                <div className="mt-10">
-                    <div className="flex flex-row justify-center items-center">
-                        <a href="https://buymeacoffee.com/"
-                            className="px-5 py-2 rounded-full border border-white text-slate-200 bg-primary-1 transition w-fit flex gap-2 items-center hover:bg-primary-1/80 font-bold"
-                            target={"_blank"} rel={"noreferrer"}>
-                            <Image src="/coffee.svg" width={24} height={24} alt="coffee"
-                                className="object-cover object-center" />
-                            Buy Me a Coffee
-                        </a>
-                    </div>
-                </div>
+                // <div className="mt-10">
+                //     <div className="flex flex-row justify-center items-center">
+                //         <a href="https://buymeacoffee.com/"
+                //             className="px-5 py-2 rounded-full border border-white text-slate-200 bg-primary-1 transition w-fit flex gap-2 items-center hover:bg-primary-1/80 font-bold"
+                //             target={"_blank"} rel={"noreferrer"}>
+                //             <Image src="/coffee.svg" width={24} height={24} alt="coffee"
+                //                 className="object-cover object-center" />
+                //             Buy Me a Coffee
+                //         </a>
+                //     </div>
+                // </div>
             </div>
         </div>
     );
